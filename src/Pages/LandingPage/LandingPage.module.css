@@ -230,6 +230,7 @@
    background-color: black;
    color: white;
    margin-left: 5%;
+   font-family: Lobster;
 }
 .myButton > button:hover{
    background-color: white;
