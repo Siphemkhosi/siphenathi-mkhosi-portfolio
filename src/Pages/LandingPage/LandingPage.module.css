@@ -206,15 +206,28 @@
     padding-inline: 1rem;
     color: var(--app-seondary-color);
     font-size: 1rem;
+    height: fit-content;
+    height: 55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     
 
 }
-.myButton{
-   display: flex;
-   padding: .1rem;
-   justify-content: start;
+.infoAboutMafa1{
+    width: fit-content;
+    height: fit-content;
 
+
+}
+.myButton{
    
+    padding: .1rem;
+    margin-inline-end: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-block-start: auto;
+    
 }
 .myButton > button{
    width: 9rem;
@@ -227,8 +240,8 @@
    outline: none;
    background-color: black;
    color: white;
-   margin-left: 5%;
    font-family: Lobster;
+   
 }
 .myButton > button:hover{
    background-color: white;
