@@ -2,12 +2,13 @@ import React, { Component} from 'react';
 import classes from './LandingPage.module.css';
 import backgroundImage from '../../Assets/Images/bgpic_2.jpg';
 
+
 export default class Section1 extends Component {
   render() {
     return (
       <>
         <div className={classes.flexContainer}>
-          <div className={classes.flexItem2}>
+          <div className={classes.backgroundContainer}>
             <img
               src={backgroundImage}
               alt="MAFA MAKETELA"

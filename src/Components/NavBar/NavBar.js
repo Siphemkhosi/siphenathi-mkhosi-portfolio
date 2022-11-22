@@ -4,8 +4,7 @@ import whatsapp from "../../Assets/Images/whatsapp.png";
 import linkedIn from "../../Assets/Images/linkedin.png";
 import instagram from "../../Assets/Images/instagram.png";
 import classes from "../../Pages/LandingPage/LandingPage.module.css";
-import logo from "../../Assets/Images/logo.jpg";
-import    "./NavBarLines.css";
+
 
 
 const NavBar = () => {
@@ -69,9 +68,10 @@ const NavBar = () => {
               <div
                 className={
                   onPagesHover === 1
-                    ? "Line2"
-                    :onPagesHover === -1 ? "Line1" : "Line3"
-               
+                    ? classes.Line2
+                    : onPagesHover === -1
+                    ? classes.Line1
+                    : classes.Line3
                 }
               ></div>
             </div>
@@ -88,9 +88,10 @@ const NavBar = () => {
               <div
                 className={
                   onPagesHover === 2
-                    ? "Line2"
-                    :onPagesHover === -2 ? "Line1" : "Line3"
-                      
+                    ? classes.Line2
+                    : onPagesHover === -2
+                    ? classes.Line1
+                    : classes.Line3
                 }
               ></div>
             </div>
@@ -107,9 +108,10 @@ const NavBar = () => {
               <div
                 className={
                   onPagesHover === 3
-                    ? "Line2"
-                    :onPagesHover === -3 ? "Line1" : "Line3"
-                      
+                    ? classes.Line2
+                    : onPagesHover === -3
+                    ? classes.Line1
+                    : classes.Line3
                 }
               ></div>
             </di>
@@ -120,17 +122,17 @@ const NavBar = () => {
               }}
               onMouseLeave={() => {
                 setOnPagesHover(-4);
-          
               }}
             >
               <div>contact</div>
               <div
                 className={
                   onPagesHover === 4
-                    ? "Line2"
-                    :onPagesHover === -4 ? "Line1" : "Line3"
-                    }
-                
+                    ? classes.Line2
+                    : onPagesHover === -4
+                    ? classes.Line1
+                    : classes.Line3
+                }
               ></div>
             </div>
           </div>
