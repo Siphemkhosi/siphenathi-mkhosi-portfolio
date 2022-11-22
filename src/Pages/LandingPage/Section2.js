@@ -12,9 +12,7 @@ export default class Section2 extends Component {
             </div>
             <div className={classes.aboutMafa}>
               <div className={classes.aboutHeadingText}>About</div>
-              <div className={classes.myName2}> MAFA MAKETELA</div>
               <div className={classes.divider}></div>
-
               <div className={classes.infoAboutMafa}>
                 Lorem Ipsum dolor Lorem Ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
