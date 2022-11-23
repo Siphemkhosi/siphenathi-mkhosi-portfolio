@@ -10,6 +10,7 @@ export default class Section3 extends Component {
       <>
         <div className={classes.Section3}>
           <div className={classes.aboutHeadingText}> portfolio</div>
+          <div className={classes.divider}></div>
           <div className={classes.cardContainer}>
             <div className={classes.card}>
               <img src={VotingFingerprintSystem} />
