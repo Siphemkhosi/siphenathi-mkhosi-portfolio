@@ -1,6 +1,6 @@
 import classes from './LandingPage.module.css';
 import React, { Component } from 'react';
-import mafa from '../../Assets/Images/mafa.png';
+import mafa from '../../Assets/Images/mafa2.jpg';
 export default class Section2 extends Component {
   render() {
     return (
