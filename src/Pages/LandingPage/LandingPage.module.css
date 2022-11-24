@@ -38,6 +38,11 @@
 .socialMediaIcon{
     width: 1.5rem;
     height: 1.5rem;
+    padding: 2px;
+}
+.socialMediaIcon:hover{
+    background: linear-gradient(90deg,var(--app-color),blue,white);
+    border-radius: 3px;
 }
 .iconLinks{
     display: flex;
