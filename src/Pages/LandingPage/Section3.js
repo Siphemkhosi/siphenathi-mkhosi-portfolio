@@ -39,6 +39,9 @@ export default class Section3 extends Component {
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat.
                 </div>
+                <div className={classes.myButton}>
+                  <button>Learn more</button>
+                </div>
               </div>
             </div>
             <div className={classes.card}>
@@ -55,6 +58,9 @@ export default class Section3 extends Component {
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat.
                 </div>
+                <div className={classes.myButton}>
+                  <button>Learn more</button>
+                </div>
               </div>
             </div>
             <div className={classes.card}>
@@ -70,6 +76,9 @@ export default class Section3 extends Component {
                   dolore magna aliqua. enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat.
+                </div>
+                <div className={classes.myButton}>
+                  <button>Learn more</button>
                 </div>
               </div>
             </div>
