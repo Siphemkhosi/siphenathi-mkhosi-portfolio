@@ -26,6 +26,10 @@ const Section4 = () => {
               </div>
             </div>
             <form className={classes.Section4Form}>
+              <div className={classes.info}>
+                Please fill out the form on this section to contact with me. Or
+                call between 9:00 a.m. and 4:00 p.m. Monday through Friday.
+              </div>
               <input placeholder="Email"></input>
               <input placeholder="Name"></input>
               <textarea placeholder="Message"></textarea>
