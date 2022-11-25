@@ -2,6 +2,7 @@ import classes from "./LandingPage.module.css";
 import Typewriter from "typewriter-effect";
 
 const Section4 = () => {
+
     return (
       <>
         <div className={classes.Section4}>
@@ -13,12 +14,10 @@ const Section4 = () => {
                 <div className={classes.textContainer}>
                   <div>
                     <Typewriter
-                      onInit={(typewriter) => {
-                        typewriter
-                          .typeString("Get in touch   ")
-                          .pauseFor(1000)
-                          .typeString("with Mafa Maketela...")
-                          .start();
+                      options={{
+                        strings: ["Get in touch...", "with Mafa Maketela."],
+                        autoStart: true,
+                        loop: true,
                       }}
                     />
                   </div>
