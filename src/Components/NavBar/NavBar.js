@@ -24,29 +24,42 @@ const NavBar = () => {
     <>
       <nav className={colorChange ? classes.colorChange : classes.navBar}>
         <div className={classes.iconLinks}>
-          <img
-            src={facebook}
-            alt="facebook icon"
-            className={classes.socialMediaIcon}
-          />
+          <a href="https://www.facebook.com/profile.php?id=100086971557256">
+            <img
+              src={facebook}
+              alt="facebook icon"
+              className={classes.socialMediaIcon}
+            />
+          </a>
+
           <div className={classes.divider}></div>
-          <img
-            src={whatsapp}
-            alt="whatsapp icon"
-            className={classes.socialMediaIcon}
-          />
+
+          <a href="https://wa.me/+27712208870/?text=Hello Mafa, I have been directed by the portfolio.">
+            <img
+              src={whatsapp}
+              alt="whatsapp icon"
+              className={classes.socialMediaIcon}
+            />
+          </a>
+
           <div className={classes.divider}></div>
-          <img
-            src={linkedIn}
-            alt="linkedin icon"
-            className={classes.socialMediaIcon}
-          />
+          <a href="https://www.linkedin.com/in/mafa-maketela-b8b8981b8/">
+            <img
+              src={linkedIn}
+              alt="linkedin icon"
+              className={classes.socialMediaIcon}
+            />
+          </a>
+
           <div className={classes.divider}></div>
-          <img
-            src={instagram}
-            alt="instagram icon"
-            className={classes.socialMediaIcon}
-          />
+          <a href="https://www.instagram.com/mafa_maketela">
+            <img
+              src={instagram}
+              alt="instagram icon"
+              className={classes.socialMediaIcon}
+            />
+          </a>
+
           <div className={classes.divider}></div>
         </div>
         <div className={classes.divider}></div>
