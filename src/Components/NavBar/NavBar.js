@@ -6,11 +6,13 @@ import instagram from "../../Assets/Images/instagram.png";
 import classes from "../../Pages/LandingPage/LandingPage.module.css";
 
 
-
-const NavBar = () => {
+const NavBar = ( {onQuery}) => {
   const [colorChange, setColorchange] = useState(false);
   const [onPagesHover, setOnPagesHover] = useState(0);
 
+  const scrollTocomponent = (ComponentName) => {
+    onQuery(ComponentName);
+  }
   const changeNavbarColor = () => {
     if (window.scrollY >= 1) {
       setColorchange(true);
@@ -24,7 +26,10 @@ const NavBar = () => {
     <>
       <nav className={colorChange ? classes.colorChange : classes.navBar}>
         <div className={classes.iconLinks}>
-          <a href="https://www.facebook.com/profile.php?id=100086971557256">
+          <a
+            href="https://www.facebook.com/profile.php?id=100086971557256"
+            target={"_blank"}
+          >
             <img
               src={facebook}
               alt="facebook icon"
@@ -34,7 +39,10 @@ const NavBar = () => {
 
           <div className={classes.divider}></div>
 
-          <a href="https://wa.me/+27712208870/?text=Hello Mafa, I have been directed by the portfolio.">
+          <a
+            href="https://wa.me/+27712208870/?text=Hello Mafa, I have been directed by the portfolio."
+            target={"_blank"}
+          >
             <img
               src={whatsapp}
               alt="whatsapp icon"
@@ -43,7 +51,10 @@ const NavBar = () => {
           </a>
 
           <div className={classes.divider}></div>
-          <a href="https://www.linkedin.com/in/mafa-maketela-b8b8981b8/">
+          <a
+            href="https://www.linkedin.com/in/mafa-maketela-b8b8981b8/"
+            target={"_blank"}
+          >
             <img
               src={linkedIn}
               alt="linkedin icon"
@@ -52,7 +63,7 @@ const NavBar = () => {
           </a>
 
           <div className={classes.divider}></div>
-          <a href="https://www.instagram.com/mafa_maketela">
+          <a href="https://www.instagram.com/mafa_maketela" target={"_blank"}>
             <img
               src={instagram}
               alt="instagram icon"
@@ -77,7 +88,13 @@ const NavBar = () => {
                 setOnPagesHover(-1);
               }}
             >
-              <div>Home</div>
+              <div
+                onClick={() => {
+                  scrollTocomponent("Home");
+                }}
+              >
+                Home
+              </div>
               <div
                 className={
                   onPagesHover === 1
@@ -97,7 +114,13 @@ const NavBar = () => {
                 setOnPagesHover(-2);
               }}
             >
-              <div>About</div>
+              <div
+                onClick={() => {
+                  scrollTocomponent("About");
+                }}
+              >
+                About
+              </div>
               <div
                 className={
                   onPagesHover === 2
@@ -117,7 +140,13 @@ const NavBar = () => {
                 setOnPagesHover(-3);
               }}
             >
-              <div>Portfolio</div>
+              <div
+                onClick={() => {
+                  scrollTocomponent("Portfolio");
+                }}
+              >
+                Portfolio
+              </div>
               <div
                 className={
                   onPagesHover === 3
@@ -137,7 +166,13 @@ const NavBar = () => {
                 setOnPagesHover(-4);
               }}
             >
-              <div>contact</div>
+              <div
+                onClick={() => {
+                  scrollTocomponent("Contact");
+                }}
+              >
+                Contact
+              </div>
               <div
                 className={
                   onPagesHover === 4

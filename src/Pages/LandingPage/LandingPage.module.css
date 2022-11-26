@@ -377,7 +377,7 @@
 }
 
 .formSibling{
-   background-image: url("/home/maketela/Web_Dev/Mafa-portfolio/mafa-maketela-portfolio/src/Assets/Images/operator.png");
+   background-image: url("../../Assets/Images/operator.png");
    font-size: 3.5rem;
    
 }
