@@ -11,7 +11,9 @@ export default class Section2 extends Component {
               <img src={mafa} alt="mafa maketela" />
             </div>
             <div className={classes.aboutMafa}>
-              <div className={classes.aboutHeadingText}>About</div>
+              <div className={classes.aboutHeadingText}>
+                About
+              </div>
               <div className={classes.divider}></div>
               <div className={classes.infoAboutMafa}>
                 <div className={classes.infoAboutMafa1}>

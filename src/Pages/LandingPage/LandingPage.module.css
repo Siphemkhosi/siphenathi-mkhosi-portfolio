@@ -24,7 +24,21 @@
     color: white;
     z-index: 1;
 }
+
+
+
+@keyframes navbarAnimation {
+    0% {opacity: 1;}
+    100% {opacity: .01;}
+    
+}
+@keyframes navbarAnimation2 {
+    0% {opacity: .01;}
+    100% {opacity: 1;}
+    
+}
 .colorChange{
+    
     width: 100%;
    top: 0px;
    position:fixed;
@@ -33,7 +47,15 @@
     z-index: 1000;
     background-color:white;
     box-shadow: 0px 1px rgba(128, 128, 128, 0.1);
+    /* opacity: 0;
+    animation-name: navbarAnimation;
+    animation-duration: 1.5s; */
 }
+/* .colorChange:hover{
+    opacity: 1;
+    animation-name: navbarAnimation2;
+    animation-duration: 1.5s;
+} */
 
 .socialMediaIcon{
     width: 1.5rem;
@@ -171,8 +193,8 @@
     width: var(--app-inner-width);
     margin-inline: auto;
     background-color: white;
-    /* box-shadow: 1px 1px 10px var(--app-color); */
-    border: 1px solid rgba(5, 10, 48, 1);
+    box-shadow: 1px 1px 5px var(--app-color);
+    /* border: 1px solid rgba(5, 10, 48, 1); */
 }
 .flexContainerSection2{
     display: flex;
@@ -276,7 +298,8 @@
     width: var(--app-inner-width);
     margin-inline: auto;
     background-color: white;
-    border: 1px solid rgba(5, 10, 48, 1);
+    /* border: 1px solid rgba(5, 10, 48, 1); */
+    box-shadow: 1px 1px 5px var(--app-color);
 }
 .cardContainer{
     margin-block: 1rem;
@@ -331,7 +354,8 @@
     width: var(--app-inner-width);
     margin-inline: auto;
     background-color: white;
-    border: 1px solid rgba(5, 10, 48, 1);
+    /* border: 1px solid rgba(5, 10, 48, 1); */
+    box-shadow: 1px 1px 5px var(--app-color);
 }
 
 /* footer css */
@@ -434,6 +458,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 2.8rem;
 }
 .info{
     font-size: 1rem;

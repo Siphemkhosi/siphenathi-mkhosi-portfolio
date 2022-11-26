@@ -88,12 +88,16 @@ const NavBar = ( {onQuery}) => {
                 setOnPagesHover(-1);
               }}
             >
-              <div
-                onClick={() => {
-                  scrollTocomponent("Home");
-                }}
-              >
-                Home
+              <div>
+                <label
+                  onClick={() => {
+                    document
+                      .getElementById("Home")
+                      .scrollIntoView({ block: "start", behavior: "smooth" });
+                  }}
+                >
+                  Home
+                </label>
               </div>
               <div
                 className={
@@ -114,12 +118,16 @@ const NavBar = ( {onQuery}) => {
                 setOnPagesHover(-2);
               }}
             >
-              <div
-                onClick={() => {
-                  scrollTocomponent("About");
-                }}
-              >
-                About
+              <div>
+                <label
+                  onClick={() => {
+                    document
+                      .getElementById("About")
+                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                  }}
+                >
+                  About
+                </label>
               </div>
               <div
                 className={
@@ -132,7 +140,7 @@ const NavBar = ( {onQuery}) => {
               ></div>
             </div>
 
-            <di
+            <div
               onMouseEnter={() => {
                 setOnPagesHover(3);
               }}
@@ -140,12 +148,16 @@ const NavBar = ( {onQuery}) => {
                 setOnPagesHover(-3);
               }}
             >
-              <div
-                onClick={() => {
-                  scrollTocomponent("Portfolio");
-                }}
-              >
-                Portfolio
+              <div>
+                <label
+                  onClick={() => {
+                    document
+                      .getElementById("Portfolio")
+                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                  }}
+                >
+                  Portfolio
+                </label>
               </div>
               <div
                 className={
@@ -156,7 +168,7 @@ const NavBar = ( {onQuery}) => {
                     : classes.Line3
                 }
               ></div>
-            </di>
+            </div>
 
             <div
               onMouseEnter={() => {
@@ -166,12 +178,16 @@ const NavBar = ( {onQuery}) => {
                 setOnPagesHover(-4);
               }}
             >
-              <div
-                onClick={() => {
-                  scrollTocomponent("Contact");
-                }}
-              >
-                Contact
+              <div>
+                <label
+                  onClick={() => {
+                    document
+                      .getElementById("Contact")
+                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                  }}
+                >
+                  Contact
+                </label>
               </div>
               <div
                 className={

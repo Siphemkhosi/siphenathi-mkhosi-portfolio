@@ -12,20 +12,20 @@ export default class LandingPage extends Component {
       return (
         <>
           <div className={classes.landingPage}>
-            <div>
+            <div id="Home">
               <Section1 />
             </div>
-            <div>
+            <div id="About">
               <Section2 />
             </div>
-            <div>
+            <div id="Portfolio">
               <Section3 />
             </div>
-            <div>
+            <div id="Contact">
               <Section4 />
             </div>
             <div>
-              <Footer/>
+              <Footer />
             </div>
           </div>
         </>

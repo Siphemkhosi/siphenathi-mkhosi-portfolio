@@ -15,7 +15,7 @@ const Section4 = () => {
                   <div>
                     <Typewriter
                       options={{
-                        strings: ["Get in touch...", "with Mafa Maketela."],
+                        strings: ["Get in touch with Mafa Maketela."],
                         autoStart: true,
                         loop: true,
                       }}
