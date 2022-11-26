@@ -1,8 +1,5 @@
 import { useState } from "react";
-import facebook from "../../Assets/Images/facebook.png";
-import whatsapp from "../../Assets/Images/whatsapp.png";
-import linkedIn from "../../Assets/Images/linkedin.png";
-import instagram from "../../Assets/Images/instagram.png";
+
 import classes from "../../Pages/LandingPage/LandingPage.module.css";
 
 
@@ -25,58 +22,11 @@ const NavBar = ( {onQuery}) => {
   return (
     <>
       <nav className={colorChange ? classes.colorChange : classes.navBar}>
-        <div className={classes.iconLinks}>
-          <a
-            href="https://www.facebook.com/profile.php?id=100086971557256"
-            target={"_blank"}
-          >
-            <img
-              src={facebook}
-              alt="facebook icon"
-              className={classes.socialMediaIcon}
-            />
-          </a>
-
-          <div className={classes.divider}></div>
-
-          <a
-            href="https://wa.me/+27712208870/?text=Hello Mafa, I have been directed by the portfolio."
-            target={"_blank"}
-          >
-            <img
-              src={whatsapp}
-              alt="whatsapp icon"
-              className={classes.socialMediaIcon}
-            />
-          </a>
-
-          <div className={classes.divider}></div>
-          <a
-            href="https://www.linkedin.com/in/mafa-maketela-b8b8981b8/"
-            target={"_blank"}
-          >
-            <img
-              src={linkedIn}
-              alt="linkedin icon"
-              className={classes.socialMediaIcon}
-            />
-          </a>
-
-          <div className={classes.divider}></div>
-          <a href="https://www.instagram.com/mafa_maketela" target={"_blank"}>
-            <img
-              src={instagram}
-              alt="instagram icon"
-              className={classes.socialMediaIcon}
-            />
-          </a>
-
-          <div className={classes.divider}></div>
-        </div>
-        <div className={classes.divider}></div>
         <div className={classes.innerNav}>
           <div className={classes.hacker}>
-            <p className={classes.logo}>MM</p>
+            <a href="/" className={classes.Home}>
+              <p className={classes.logo}>MM</p>
+            </a>
           </div>
 
           <div className={classes.pages}>
@@ -95,6 +45,7 @@ const NavBar = ( {onQuery}) => {
                       .getElementById("Home")
                       .scrollIntoView({ block: "start", behavior: "smooth" });
                   }}
+                  className={classes.pointer}
                 >
                   Home
                 </label>
@@ -123,8 +74,9 @@ const NavBar = ( {onQuery}) => {
                   onClick={() => {
                     document
                       .getElementById("About")
-                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                      .scrollIntoView({ block: "center", behavior: "smooth" });
                   }}
+                  className={classes.pointer}
                 >
                   About
                 </label>
@@ -153,8 +105,9 @@ const NavBar = ( {onQuery}) => {
                   onClick={() => {
                     document
                       .getElementById("Portfolio")
-                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                      .scrollIntoView({ block: "center", behavior: "smooth" });
                   }}
+                  className={classes.pointer}
                 >
                   Portfolio
                 </label>
@@ -183,8 +136,9 @@ const NavBar = ( {onQuery}) => {
                   onClick={() => {
                     document
                       .getElementById("Contact")
-                      .scrollIntoView({ block: "end", behavior: "smooth" });
+                      .scrollIntoView({ block: "center", behavior: "smooth" });
                   }}
+                  className={classes.pointer}
                 >
                   Contact
                 </label>

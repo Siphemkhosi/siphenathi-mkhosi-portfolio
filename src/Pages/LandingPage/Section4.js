@@ -1,5 +1,7 @@
 import classes from "./LandingPage.module.css";
 import Typewriter from "typewriter-effect";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Section4 = () => {
 
@@ -33,7 +35,9 @@ const Section4 = () => {
               <input placeholder="Name"></input>
               <textarea placeholder="Message"></textarea>
               <div className={classes.formButton}>
-                <button>send message</button>
+                <button type="submit" onClick={()=>{toast("message sent.", {
+                  position: toast.POSITION.BOTTOM_CENTER,
+                });}}>send message</button>
               </div>
             </form>
           </div>

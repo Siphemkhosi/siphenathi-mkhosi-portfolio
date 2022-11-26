@@ -33,11 +33,13 @@ export default class Section3 extends Component {
                   {this.state.typeOfApp}
                 </div>
                 <div className={classes.moreAboutProject}>
-                  Lorem Ipsum dolor Lorem Ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
+                  Fingerprint print voting System, an android application that
+                  allows citizens to vote the party of their interest.
+                  <br />
+                  The app makes of the fingerprint scanner to verify vote hence
+                  the name suggests.
+                  <br /> the app makes use of sqlite database to store
+                  information.
                 </div>
                 <div className={classes.myButton1}>
                   <button>Learn more</button>
@@ -52,11 +54,12 @@ export default class Section3 extends Component {
                   {this.state.typeOfApp}
                 </div>
                 <div className={classes.moreAboutProject}>
-                  Lorem Ipsum dolor Lorem Ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
+                  The cinema application allows the use to pick movies from the
+                  given lists of movies and book tickes.
+                  <br />The app allows the user to pick a date and also the
+                  number of tickets. <br />
+                  The app does not make any use of database thus does not store
+                  data.
                 </div>
                 <div className={classes.myButton1}>
                   <button>Learn more</button>
@@ -71,11 +74,12 @@ export default class Section3 extends Component {
                   {this.state.typeOfApp}
                 </div>
                 <div className={classes.moreAboutProject}>
-                  Lorem Ipsum dolor Lorem Ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
+                  Music player app loads all music from android device and lists
+                  all on user interface.
+                  <br /> The application so far has basic functionalities like
+                  play, next,
+                  <br /> pause and previous and still being edited for better
+                  experience and is currently in use.
                 </div>
                 <div className={classes.myButton1}>
                   <button>Learn more</button>

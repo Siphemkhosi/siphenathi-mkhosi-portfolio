@@ -27,6 +27,16 @@
     color: white;
     z-index: 1;
 }
+.pointer{
+    cursor: pointer;
+}
+.Home{
+    outline: none;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
 
 
 
@@ -61,8 +71,8 @@
 } */
 
 .socialMediaIcon{
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     padding: 2px;
 }
 .socialMediaIcon:hover{
@@ -72,8 +82,7 @@
 .iconLinks{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
-    margin-block: .1rem;
+    
 }
 
 .innerNav{
@@ -89,7 +98,6 @@
     justify-content: space-between;
     margin-block: auto;
 }
-
 .logo{
    
     font-family: Lobster;
@@ -247,7 +255,9 @@
 .infoAboutMafa1{
     width: fit-content;
     height: fit-content;
-
+    color: grey;
+    
+   
 
 }
 .myButton{
@@ -270,6 +280,8 @@
     font-size: 1rem;
     color: white;
     font-family: Lobster;
+    cursor: pointer;
+
 }
 .myButton1 > button{
     width: 7rem;
@@ -280,6 +292,8 @@
     color: white;
     font-family: Lobster;
     margin-top: 1rem;
+    cursor: pointer;
+
 }
 
 .myButton1 > button:hover{
@@ -346,6 +360,7 @@
     font-size: .9rem;
      margin: 5px;
     margin-top: 1rem;
+    color: grey;
    
    
 }
@@ -451,6 +466,8 @@
     height: 3rem;
     font-size: 1rem;
     color: white;
+    cursor: pointer;
+
 }
 .formButton>button:hover{
     background-color: white;
