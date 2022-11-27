@@ -2,8 +2,33 @@ import classes from "./LandingPage.module.css";
 import Typewriter from "typewriter-effect";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Section4 = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wfalcvm",
+        "template_ct1b0en",
+        form.current,
+        "JnWMxCBVw6O6pQjD3"
+      )
+      .then(
+        (result) => {
+          toast.success("message sent", { position: toast.POSITION.BOTTOM_CENTER, autoClose: 3000 });
+        },
+        (error) => {
+          toast.error("message failed", {
+            position: toast.POSITION.BOTTOM_CENTER,
+            autoClose: 3000,
+          });
+        }
+      );
+  };
 
     return (
       <>
@@ -26,18 +51,28 @@ const Section4 = () => {
                 </div>
               </div>
             </div>
-            <form className={classes.Section4Form}>
+            <form ref={form} className={classes.Section4Form} onSubmit={sendEmail}>
               <div className={classes.info}>
                 Please fill out the form on this section to contact with me. Or
                 call between 9:00 a.m. and 4:00 p.m. Monday through Friday.
               </div>
-              <input placeholder="Email"></input>
-              <input placeholder="Name"></input>
-              <textarea placeholder="Message"></textarea>
+              <input
+                type={"text"}
+                name={"user_name"}
+                placeholder="Name"
+              ></input>
+              <input
+                type={"email"}
+                name={"user_email"}
+                 placeholder="Email"
+              ></input>
+              <textarea placeholder="Message" name={"message"}></textarea>
               <div className={classes.formButton}>
-                <button type="submit" onClick={()=>{toast("message sent.", {
-                  position: toast.POSITION.BOTTOM_CENTER,
-                });}}>send message</button>
+                <button
+                  type="submit"
+                >
+                  send message
+                </button>
               </div>
             </form>
           </div>

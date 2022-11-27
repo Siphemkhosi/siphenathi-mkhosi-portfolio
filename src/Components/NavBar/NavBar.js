@@ -3,13 +3,9 @@ import { useState } from "react";
 import classes from "../../Pages/LandingPage/LandingPage.module.css";
 
 
-const NavBar = ( {onQuery}) => {
+const NavBar = () => {
   const [colorChange, setColorchange] = useState(false);
   const [onPagesHover, setOnPagesHover] = useState(0);
-
-  const scrollTocomponent = (ComponentName) => {
-    onQuery(ComponentName);
-  }
   const changeNavbarColor = () => {
     if (window.scrollY >= 1) {
       setColorchange(true);
@@ -24,9 +20,12 @@ const NavBar = ( {onQuery}) => {
       <nav className={colorChange ? classes.colorChange : classes.navBar}>
         <div className={classes.innerNav}>
           <div className={classes.hacker}>
-            <a href="/" className={classes.Home}>
+            <label  onClick={() => {
+              window.location.reload(true);
+                      
+                  }}>
               <p className={classes.logo}>MM</p>
-            </a>
+            </label>
           </div>
 
           <div className={classes.pages}>
