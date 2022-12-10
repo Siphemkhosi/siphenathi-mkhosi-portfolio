@@ -1,0 +1,461 @@
+    1  ls
+    2  clear
+    3  sudo apt update
+    4  sudo pro attach C13DapsUcoJWRfBc97EqUUuZphhjy1
+    5  sudo apt update
+    6  clear
+    7  sudo apt upgrade
+    8  clear
+    9  sudo pro attach C13DapsUcoJWRfBc97EqUUuZphhjy1
+   10  sudo apt update
+   11  sudo apt-get update
+   12  sudo apt update
+   13  reboot
+   14  sudo apt-get update
+   15  sudo apt update
+   16  java
+   17  sudo apt install default-jre
+   18  sudo apt update
+   19  sudo apt upgrade
+   20  clear
+   21  sudo apt-get update
+   22  clear
+   23  sudo gedit /etc/resolv.conf
+   24  clear
+   25  ping google.com
+   26  clar
+   27  clear
+   28  lsb_release -r
+   29  clear
+   30  sudo bash -c 'echo "nameserver 127.0.0.1" >> /etc/resolv.conf'
+   31  sudo apt-get update
+   32  git
+   33  sudo apt install git
+   34  npm -v
+   35  sudo apt-get update
+   36  sudo apt update
+   37  sudoj apt update
+   38  sudo apt update
+   39  git clone https://github.com/Joshua3729/Sali-Eng.git
+   40  clear
+   41  cd Sali-Eng/
+   42  npm install 
+   43  npm install --legacy-peer-deps
+   44  clear
+   45  npm start
+   46  clear
+   47  shutdown
+   48  git config pull.ff only
+   49  cd Sali-Eng/
+   50  git config pull.ff only
+   51  git pull origin main
+   52  git config pull.rebase true
+   53  git pull origin main
+   54  clear
+   55  clea
+   56  rclear
+   57  clear
+   58  git clone https://github.com/Joshua3729/Sali-Eng.git
+   59  clear
+   60  exit
+   61  code .
+   62  exit
+   63  touch notes.txt
+   64  npm start
+   65  cd Sali-Eng/
+   66  clear
+   67  git add .
+   68  git commit -m "updates on projects"
+   69  git config --global user.email "you@example.com"
+   70  git config --global user.email "maketelamafa2@gmail.com"
+   71  git config --global user.name "MM-Maketela"
+   72  clear
+   73  git commit -m "updates on projects"
+   74  git push origin main
+   75  git pull origin main
+   76  clear
+   77  git push origin main
+   78  clear
+   79  git commit -m "updates on projects"
+   80  git push origin main
+   81  git pull origin main
+   82  clear
+   83  git pull origin main
+   84  clear
+   85  git pull origin main
+   86  clear
+   87  git pull origin main
+   88  cd Sali-Eng/
+   89  clear
+   90  git add .
+   91  git commit -m "updates"
+   92  clear
+   93  git pull origin main
+   94  git push origin main
+   95  clear
+   96  git add .
+   97  git commit -m "updates"
+   98  clear
+   99  git push origin main
+  100  clear
+  101  cd Sali-Eng/
+  102  clear
+  103  git add .
+  104  git commit -m "updates"
+  105  git pull origin main
+  106  clear
+  107  git push origin amin
+  108  git push origin main
+  109  clear
+  110  git add . 
+  111  git commit -m "updates"
+  112  clear
+  113  git pull origin main
+  114  clear
+  115  git push origin main
+  116  clear
+  117  git add .
+  118  git commit -m "updates"
+  119  clear
+  120  git pull origin main
+  121  clear
+  122  git push origin main
+  123  clear
+  124  git add .
+  125  git commit -m "updates"
+  126  clear
+  127  git pull origin main
+  128  clear
+  129  git push origin main
+  130  clear
+  131  git add .
+  132  git commit -m 
+  133  git commit -m "updates"
+  134  clear
+  135  git push origin main
+  136  clear
+  137  git add .
+  138  git commit -m "updates"
+  139  git push origin main
+  140  clear
+  141  git add .
+  142  git commit -m "updates"
+  143  clear
+  144  git push origin main
+  145  clear
+  146  npm i typewriter-effect
+  147  npm i typewriter-effect --legacy-peer-deps
+  148  clear
+  149  git add .
+  150  git commit -m "updates"
+  151  clear
+  152  git pull origin main
+  153  clear
+  154  git push origin main
+  155  clear
+  156  git add .
+  157  git commit -m "updates"
+  158  clear
+  159  git pull origin main
+  160  git push origin main
+  161  clear
+  162  git add .
+  163  git commit -m "updates"
+  164  clear
+  165  git pull origin main
+  166  git push origin main
+  167  clear
+  168  git clone https://github.com/Joshua3729/Sali-Eng.git
+  169  clear
+  170  cd Sali-Eng/
+  171  clear
+  172  npm install 
+  173  npm install --legacy-peer-deps
+  174  npm start
+  175  clear
+  176  npm start
+  177  sudo -s
+  178  exit
+  179  cd Sali-Eng/
+  180  clear
+  181  cd 
+  182  cd web-dev/
+  183  cd sali-one/
+  184  cd Sali-Eng/
+  185  clear
+  186  ls
+  187  cler
+  188  clear
+  189  npm start
+  190  code .
+  191  cd Sali-Eng/
+  192  cleasr
+  193  npm start
+  194  npm create-next-app@latest
+  195  clear
+  196  npx create-next-app@latest
+  197  ls
+  198  npx create-next-app@latest
+  199  npm cache clean --force
+  200  clear
+  201  npx create-next-app@latest
+  202  npm install --save-exact
+  203  npm -v
+  204  npm install -g npm@8.5.0
+  205  sudo npm install -g npm@8.5.0
+  206  npm -v
+  207  node -v
+  208  clear
+  209  ls
+  210  npx create-next-app@latest
+  211  npm config set fetch-retry-mintimeout 20000
+  212  npm config set fetch-retry-maxtimeout 120000
+  213  npm config set fetch-retry-mintimeout 20000
+  214  clear
+  215  npx create-next-app@latest
+  216  clear
+  217  cd ecommerce/
+  218  ls
+  219  clear
+  220  ls
+  221  clear
+  222  npm install --legacy-peer-deps
+  223  clear
+  224  npm run dev
+  225  clear
+  226  npm install -g @sanity/cli
+  227  sanity init --coupon javascriptmastery2022
+  228  sudo npm install -g @sanity/cli
+  229  sanity init --coupon javascriptmastery2022
+  230  clear
+  231  sudo npm install -g @sanity/cli
+  232  sanity init --coupon javascriptmastery2022
+  233  clear
+  234  exit
+  235  git add .
+  236  git commit -m "updates"
+  237  git pull origin main
+  238  clear
+  239  git push origin main
+  240  clear
+  241  git add .
+  242  git commit -m "updates"
+  243  clear
+  244  git pull orgin main
+  245  git pull origin main
+  246  git push origin main
+  247  clear
+  248  git add .
+  249  clear
+  250  git commit -m "updates what we do"
+  251  git pull origin main
+  252  git push origin main
+  253  clear
+  254  npm start
+  255  xournal
+  256  sudo apt install xournal
+  257  git add .
+  258  git commit -m "updates"
+  259  clear
+  260  git add .
+  261  git commit -m "updates"
+  262  clear
+  263  git pull origin main
+  264  clear
+  265  git pull 
+  266  clear
+  267  git push origin main
+  268  clear
+  269  git pull origin main
+  270  git git fetch
+  271  git fetch
+  272  clear
+  273  git fetch
+  274  clear
+  275  git push origin main
+  276  clear
+  277  git pull
+  278  clear
+  279  git fetch
+  280  git log
+  281  git merge
+  282  ls
+  283  clear
+  284  npm start
+  285  cd web-dev/
+  286  clear
+  287  cd
+  288  clear
+  289  sudo apt update
+  290  c
+  291  clear
+  292  sudo apt-get 
+  293  sudo apt-get update
+  294  clear
+  295  sudo apt update
+  296  sudo apt upgrade
+  297  clea
+  298  clear
+  299  sudo apt update
+  300  sudo apt-get upgrade
+  301  clear
+  302  clear
+  303  clear
+  304  git add .
+  305  git commit -m "footer updates"
+  306  git pull origin main
+  307  clear
+  308  git push origin main
+  309  clear
+  310  cd web-dev/
+  311  ls
+  312  cd sali-one/
+  313  clear
+  314  ls
+  315  cd Sali-Eng/
+  316  clear
+  317  ls
+  318  git pull origin main
+  319  git merge
+  320  git merge -m "test"
+  321  git log
+  322  clear
+  323  git merge
+  324  git add .
+  325  git commit -m "updates"
+  326  clear
+  327  git merge
+  328  clear
+  329  ls
+  330  npm start
+  331  speedtest
+  332  sudo apt install speedtest-cli
+  333  clear
+  334  speedtest
+  335  clear
+  336  exit
+  337  git add .
+  338  git commit -, "footer updates"
+  339  git commit -m "footer updates"
+  340  clear
+  341  git push origin main
+  342  clear
+  343  git add .
+  344  git commit -m "footer updates"
+  345  clear
+  346  git push origin main
+  347  clear
+  348  git add .
+  349  git commit -m "footer updates"
+  350  clear
+  351  git push origin main
+  352  cleear
+  353  clear
+  354  git add .
+  355  git commit -m "footer updates"
+  356  clear
+  357  git push origin main
+  358  clear
+  359  npm install react-countup
+  360  clear
+  361  npm install react-countup --legacy-peer-deps
+  362  clear
+  363  git add .
+  364  git commit -m "about us updates"
+  365  git clear
+  366  clear
+  367  git push origin main
+  368  clear
+  369  git add .
+  370  git commit -m "about us updates"
+  371  clear
+  372  npm install react-visibility-sensor
+  373  npm install react-visibility-sensor --legacy-peer-deps
+  374  clear
+  375  git add .
+  376  git commit -m "abount us updates"
+  377  git push origin main
+  378  clear
+  379  npm start
+  380  sudo apt update 
+  381  clear
+  382  sudo apt upgrade -y
+  383  clea
+  384  clear
+  385  sudo apt update
+  386  clear
+  387  sudo apt update
+  388  reboot
+  389  sudo apt udpate
+  390  sudo apt update
+  391  clear
+  392  exit
+  393  sudo apt update
+  394  clear
+  395  sudo apt update
+  396  clear
+  397  sudo apt upgrade -y
+  398  clear
+  399  exit
+  400  reboot
+  401  npm start
+  402  clear
+  403  ifocnfig
+  404  ipfonfig
+  405  ifconfig
+  406  sudo apt install net-tools
+  407  clear
+  408  ifconfig
+  409  sudo apt update
+  410  clear
+  411  speedtest
+  412  clear
+  413  speedtest
+  414  sudo apt-get upgrade
+  415  clea
+  416  rclear
+  417  clear
+  418  sudo apt update
+  419  clear
+  420  eit
+  421  exit
+  422  android-studio
+  423  sudo snap install android-studio --classic
+  424  clear
+  425  exit
+  426  npm run dev
+  427  npm start
+  428  git add .
+  429  git commit -m "about us updates"
+  430  clear
+  431  git pull 
+  432  clear
+  433  git push origin main
+  434  clear
+  435  git add .
+  436  git commit -m "about us updates"
+  437  git push origin main
+  438  clear
+  439  git add .
+  440  git commit -m "about us updates"
+  441  clear
+  442  git push origin main
+  443  git pull 
+  444  git push origin main
+  445  clear
+  446  git add .
+  447  git commit -m "about us updates"
+  448  clear
+  449  git push origin main
+  450  clear
+  451  git clone https://github.com/MM-Maketela/mafa-maketela-portfolio.git
+  452  clear
+  453  npm start
+  454  npm run dev
+  455  clear
+  456  npm run deploy
+  457  npm deploy
+  458  clear
+  459  history
+  460  clear
+  461  history > history.txt
