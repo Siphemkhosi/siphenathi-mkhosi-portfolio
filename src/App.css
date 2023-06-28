@@ -6,4 +6,6 @@
 
 .App {
   background-color: var(--app-background-color);
+  max-width: 1400px;
+  margin-inline: auto;
 }

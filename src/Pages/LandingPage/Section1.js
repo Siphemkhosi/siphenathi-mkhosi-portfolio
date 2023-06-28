@@ -13,6 +13,9 @@ export default class Section1 extends Component {
               src={backgroundImage}
               alt="MAFA MAKETELA"
               className={classes.myBackgroundImage}
+              style={{
+                opacity:.8
+              }}
             />
           </div>
             <div className={classes.flexItem1}>

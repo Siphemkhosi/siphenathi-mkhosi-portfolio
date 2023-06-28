@@ -9,19 +9,19 @@ const Footer = () => {
       <div className={classes.FooterContainer}>
         <div className={classes.Footer}>
           <div>
-            <div>Mafa Maketela</div>
+            <div>Siphenathi Mkhosi</div>
             <div>Portfolio</div>
           </div>
 
           <div>
-            <div>00 Haasenda,</div>
-            <div>Kuilsriver 7580, Cape Town</div>
+            <div>Robert Sobukwe</div>
+            <div>Bellville UWC-CAMPUS</div>
           </div>
 
           <div>
-            <div>maketelamafa2@gmail.com</div>
-            <div>(+27) 71 220 8870</div>
-            <div>(+27) 73 187 4276</div>
+            <div>siphemkhosi7@gmail.com</div>
+            <div>(+27) 71 057 1638</div>
+            <div> </div>
           </div>
           <div className={classes.iconLinks}>
             <a
@@ -39,7 +39,7 @@ const Footer = () => {
             <div className={classes.divider}></div>
 
             <a
-              href="https://wa.me/+27712208870/?text=Hello Mafa, I have been directed by the portfolio."
+              href="https://wa.me/+27710571638/?text=Hello Siphe, I have been directed by the portfolio."
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
@@ -52,7 +52,7 @@ const Footer = () => {
 
             <div className={classes.divider}></div>
             <a
-              href="https://www.linkedin.com/in/mafa-maketela-b8b8981b8/"
+              href=""
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
